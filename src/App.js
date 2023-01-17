@@ -15,7 +15,7 @@ const App = () => {
 		<div>
 			<StyledFirstText>Text1</StyledFirstText>
 			<StyledSecondText>Text2</StyledSecondText>
-			<h4>Text3</h4>
+			<h4>Text34</h4>
 		</div>
 	);
 };
