@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const StyledFirstText = styled.h2`
+	font-size: 20px;
+	color: green;
+`;
+
+const StyledSecondText = styled.h3`
+	font-size: 15px;
+	color: red;
+`;
+
+const App = () => {
+	return (
+		<div>
+			<StyledFirstText>Text1</StyledFirstText>
+			<StyledSecondText>Text2</StyledSecondText>
+			<h4>Text3</h4>
+		</div>
+	);
+};
 
 export default App;
