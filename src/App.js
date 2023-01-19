@@ -15,6 +15,7 @@ const App = () => {
 					<TomatoButton>tomato</TomatoButton>
 				</AppHeader>
 			</AppWraper>
+			<p> test</p>
 		</>
 	);
 };
